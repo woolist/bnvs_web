@@ -69,7 +69,7 @@ section { overflow: hidden; }*/
 ------------------------------------------*/
 
 .roomy-100 {
-    /* padding-top: 100px;/ */
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -927,11 +927,11 @@ Nav Menu style
 .about-banner,
 .blog-banner,
 .home{
-    /* background-size: cover; */
+    background-size: cover;
     position: relative;
 }
 .home{
-    background: url(../images/background/homepage.jpg) no-repeat left;
+    background: url(../images/background/homepage.jpg) no-repeat center;
     background-size : 100%;
     height : 91.1vh;
 }
@@ -1222,7 +1222,12 @@ service section style
     font-size:14px;
     font-weight: 400;
 }
-
+.mentoring {
+    font-size:18px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+}
 
 
 /*
